@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">CambiarDeActivity</string>
+    <string name="hobbies">¿Qué hobbies tiene Nyl?</string>
+    <string name="deportes">Deportes</string>
+    <string name="musica">Musica</string>
+    <string name="estudios">Estudios</string>
+    <string name="youtube">Youtube</string>
+    <string name="videojuegos">Videojuegos</string>
+    <string name="comida">Comida</string>
+    <string name="fiesta">Fiesta</string>
+    <string name="familia">Familia</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="colores">¿Cuáles los colores favoritos de Nyl?</string>
+    <string name="rojo">Rojo</string>
+    <string name="azul">Azul</string>
+    <string name="negro">Negro</string>
+    <string name="blanco">Blanco</string>
+    <string name="gris">Gris</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="anterior">Anterior</string>
+    <string name="inicio">Inicio</string>
+    <string name="cerrar">Cerrar</string>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblHobbies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="99dp"
+        android:text="@string/hobbies"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/chbYoutube"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="20dp"
+        android:onClick="check"
+        android:text="@string/youtube"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chbEstudios" />
+
+    <CheckBox
+        android:id="@+id/chbVideojuegos"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="40dp"
+        android:onClick="check"
+        android:text="@string/videojuegos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblHobbies" />
+
+    <CheckBox
+        android:id="@+id/chbEstudios"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/estudios"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chbMusica" />
+
+    <CheckBox
+        android:id="@+id/chbMusica"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="20dp"
+        android:onClick="check"
+        android:text="@string/musica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chbVideojuegos" />
+
+    <CheckBox
+        android:id="@+id/chbFiesta"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="46dp"
+        android:text="@string/fiesta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chbComida" />
+
+    <CheckBox
+        android:id="@+id/chbDeportes"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="46dp"
+        android:text="@string/deportes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblHobbies" />
+
+    <CheckBox
+        android:id="@+id/chbFamilia"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="46dp"
+        android:text="@string/familia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chbFiesta" />
+
+    <CheckBox
+        android:id="@+id/chbComida"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="46dp"
+        android:onClick="check"
+        android:text="@string/comida"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chbDeportes" />
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="46dp"
+        android:onClick="switchActivity"
+        android:text="@string/siguiente"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chbFamilia" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
